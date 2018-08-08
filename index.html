@@ -2,15 +2,15 @@
 <html>
   <head>
     <title>Calculator</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+   <link rel="stylesheet"     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
       integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
       crossorigin="anonymous">
-    <script
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script
       src="https://code.jquery.com/jquery-3.3.1.js"
       integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
       crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
     <div class="container">
@@ -24,8 +24,14 @@
           <label for="add2">2nd number:</label>
           <input id="add2" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn">Add!</button>
+        <button type="button" class="btn" id="add9">Add!</button>
+        <button type="button" class="btn" id="subtract9">Subtract!</button>
+        <button type="button" class="btn" id="mulitply9">Multiply!</button>
+        <button type="button" class="btn" id="divide9">Divide!</button>
       </form>
+      <div id="output">
+
+      </div>
     </div>
   </body>
 </html>
